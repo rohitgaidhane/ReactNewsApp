@@ -9,6 +9,8 @@ const root = createRoot(document.getElementById('root'));
 
 root.render(
   <Provider store={store}>
-    <App />
+   
+      <App />
+
   </Provider>
 );

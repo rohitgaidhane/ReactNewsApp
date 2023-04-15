@@ -31,16 +31,19 @@
   position: absolute;
   display: flex;
   top: 9px;
-  right: 0;
+  right: 15px;
   color: white;
-  width: 50px;
+  /* width: 50px; */
   height: auto;
 }
 
 .icon {
   color: #45ac9f;
-  width: 40px;
-  height: 40px;
+ 
+
   margin-top: 1.25rem;
   cursor: pointer;
+}
+.active{
+  background-color:red;
 }

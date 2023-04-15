@@ -1,11 +1,10 @@
 import { Action, ThunkAction, configureStore } from '@reduxjs/toolkit';
-import todosReducer from '../features/todos/todosSlice';
-import modalReducer from '../features/modal/modalSlice';
+
+import countryReducer from '../features/navbar/countrySlice';
 
 export const store = configureStore({
   reducer: {
-    todos: todosReducer,
-    modal: modalReducer,
+    country: countryReducer,
   },
 });
 
